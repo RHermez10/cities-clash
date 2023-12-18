@@ -4,21 +4,21 @@
 
 ## Features
 
-Vote for Your Favorite City: Engage in head-to-head city matches and vote for the city you like the best.
+- Vote for Your Favorite City: Engage in head-to-head city matches and vote for the city you like the best.
 
-Gallery of Cities: Explore a visually appealing gallery showcasing all the cities in the game.
+- Gallery of Cities: Explore a visually appealing gallery showcasing all the cities in the game.
 
-Add New Cities: Contribute to the game by adding new cities and expanding the competition.
+- Add New Cities: Contribute to the game by adding new cities and expanding the competition.
 
 ## Technologies Used
 
-Node.js: The backend is powered by Node.js, providing a robust and scalable server environment.
+- Node.js: The backend is powered by Node.js, providing a robust and scalable server environment.
 
-MongoDB: CityMatch utilizes MongoDB to store and manage city data efficiently.
+- MongoDB: CityMatch utilizes MongoDB to store and manage city data efficiently.
 
-Styled-Components: Stylish and responsive user interfaces are created using Styled-Components.
+- Styled-Components: Stylish and responsive user interfaces are created using Styled-Components.
 
-REST API: The application communicates through a RESTful API, ensuring smooth interactions between the frontend and backend.
+- REST API: The application communicates through a RESTful API, ensuring smooth interactions between the frontend and backend.
 
-Express: The web server is built on Express, providing a fast and minimalistic framework for Node.js.
+- Express: The web server is built on Express, providing a fast and minimalistic framework for Node.js.
 
