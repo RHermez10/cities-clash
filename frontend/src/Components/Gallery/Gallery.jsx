@@ -17,7 +17,7 @@ function Gallery() {
     const [info, setInfo] = useState([]);
 
     function getCities() {
-        fetch("https://city-clash-app.onrender.com/hamsters")
+        fetch("https://city-game-app.onrender.com/hamsters")
             .then((res) => res.json())
             .then((data) => setCities(data));
     }
@@ -25,7 +25,7 @@ function Gallery() {
     //DELETE CITY BY ID
     async function deleteCity(id) {
         const response = await fetch(
-            "https://city-clash-app.onrender.com/hamsters/delete/" + id,
+            "https://city-game-app.onrender.com/hamsters/delete/" + id,
             {
                 method: "DELETE",
             }
@@ -40,7 +40,7 @@ function Gallery() {
     //GET CITY BY ID
     async function getCityId(id) {
         const response = await fetch(
-            "https://city-clash-app.onrender.com/hamsters/" + id._id,
+            "https://city-game-app.onrender.com/hamsters/" + id._id,
             {
                 method: "GET",
             }

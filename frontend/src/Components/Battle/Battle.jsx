@@ -14,7 +14,7 @@ function Battle() {
 
     //FETCING TO GET 2 RANDOM HAMSTERS FRON THE SERVER
     const getRandom = () => {
-        fetch("https://city-clash-app.onrender.com/hamsters/random")
+        fetch("https://city-game-app.onrender.com/hamsters/random")
             .then((res) => res.json())
             .then((data) => {
                 console.log('API Response:', data);
@@ -39,7 +39,7 @@ function Battle() {
         };
 
         const response = await fetch(
-            "https://city-clash-app.onrender.com/hamsters/update/" +
+            "https://city-game-app.onrender.com/hamsters/update/" +
             winner._id,
             {
                 method: "PUT",
@@ -60,7 +60,7 @@ function Battle() {
             games: loser.games + 1,
         };
         const response = await fetch(
-            "https://city-clash-app.onrender.com/hamsters/update/" + loser._id,
+            "https://city-game-app.onrender.com/hamsters/update/" + loser._id,
             {
                 method: "PUT",
                 body: JSON.stringify(upLoser),

@@ -20,7 +20,7 @@ function AddCity({ cities, setCities, close }) {
             imgName: file,
         };
         const response = await fetch(
-            "https://city-clash-app.onrender.com/hamsters/add",
+            "https://city-game-app.onrender.com/hamsters/add",
             {
                 method: "POST",
                 body: JSON.stringify(newCity),
